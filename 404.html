@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>GR26 · Feedback</title>
+<script>
+  // Send any stray path under a survey folder (e.g. from a short link) to the right survey
+  (function () {
+    var p = location.pathname;
+    if (p.indexOf('/gr26-survey/coordinators') === 0) location.replace('/gr26-survey/coordinators/');
+    else if (p.indexOf('/gr26-survey/team') === 0) location.replace('/gr26-survey/team/');
+  })();
+</script>
+<style>
+  html,body{margin:0;height:100%;background:#060D19;color:#93A6C2;font:15px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif}
+  body{display:flex;align-items:center;justify-content:center;text-align:center;padding:24px}
+</style>
+</head>
+<body>
+  <p>Page not found.</p>
+</body>
+</html>
